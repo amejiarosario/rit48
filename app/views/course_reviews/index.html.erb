@@ -1,0 +1,33 @@
+<h1>Listing course_reviews</h1>
+
+<table>
+  <tr>
+    <th>Comment</th>
+    <th>Difficulty</th>
+    <th>Usefulness</th>
+    <th>Content</th>
+    <th>Time spent</th>
+    <th>Recommend</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @course_reviews.each do |course_review| %>
+  <tr>
+    <td><%= course_review.comment %></td>
+    <td><%= course_review.difficulty %></td>
+    <td><%= course_review.usefulness %></td>
+    <td><%= course_review.content %></td>
+    <td><%= course_review.time_spent %></td>
+    <td><%= course_review.recommend %></td>
+    <td><%= link_to 'Show', course_review %></td>
+    <td><%= link_to 'Edit', edit_course_review_path(course_review) %></td>
+    <td><%= link_to 'Destroy', course_review, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Course review', new_course_review_path %>

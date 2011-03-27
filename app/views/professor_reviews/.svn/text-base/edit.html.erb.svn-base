@@ -1,0 +1,6 @@
+<h1>Editing professor_review</h1>
+
+<%= render 'form' %>
+
+<%= link_to 'Show', @professor_review %> |
+<%= link_to 'Back', professor_reviews_path %>

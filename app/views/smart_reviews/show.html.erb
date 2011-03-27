@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>User:</b>
+  <%= @smart_review.user %>
+</p>
+
+<p>
+  <b>Section:</b>
+  <%= @smart_review.section %>
+</p>
+
+<div>
+  <h2>Professor</h2>
+  <%= render :partial => 'professor_review', :object => @smart_review.professor_reviews.first %>
+</div>
+
+<div>
+  <h2>Course</h2>
+  <%= render :partial => 'course_review', :object=> @smart_review.course_reviews.first %>
+</div>
+
+<%= link_to 'Edit', edit_smart_review_path(@smart_review) %> |
+<%= link_to 'Back', smart_reviews_path %>

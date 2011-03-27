@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/rit48/!svn/ver/72/trunk/app/views/layouts
+END
+application.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/rit48/!svn/ver/72/trunk/app/views/layouts/application.html.erb
+END
+user_session.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/rit48/!svn/ver/64/trunk/app/views/layouts/user_session.html.erb
+END

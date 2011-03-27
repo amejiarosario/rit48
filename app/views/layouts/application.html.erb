@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title><%= @page_title or 'Smart Student' %></title>
+		<%= stylesheet_link_tag :all %>
+		<%= javascript_include_tag 'jquery', 'rails', 'application' %>
+		<%= csrf_meta_tag %>
+	</head>
+	<body id="home">
+
+		<div id="mainWrapper">
+
+			<div id="header">
+				<a href="/home">
+				<img src="images/header4.png" id="headerIMG"/>
+				</a>
+				<img src="images/beta_tag.png" id="beta"/>
+				<%= link_to 'Logout', logout_path, :id => 'logoutbox' %>
+			</div><!--END HEADER-->
+			<div id="nav">
+				<ul>
+					<li>
+						<%= link_to "SMART SEARCH", home_path %>
+					</li>
+					<li>
+						<%= link_to "COURSES", departments_path, :title => 'Browse Courses' %>
+					</li>
+					<li>
+						<%= link_to "PROFESSORS", professors_path, :title => 'Browse Professors' %>
+					</li>
+					<li>
+						<%= link_to "Q&A", "" %>
+					</li>
+				</ul>
+			</div>
+			<div id="adWrapper">
+				ads go here
+			</div><!--END AD WRAPPER-->
+			<div id="wrapper">
+				<%= yield %>
+			</div><!--END WRAPPER-->
+			<!---
+			<div id="footer">
+			Feedback Contact Disclaimer About</div>
+			END FOOTER-->
+		</div><!--END MAIN WRAPPER-->
+	</body>
+</html>

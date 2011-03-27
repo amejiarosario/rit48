@@ -1,0 +1,51 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Key:</b>
+  <%= @course.key %>
+</p>
+<p>
+  <b>Name:</b>
+  <%= @course.name %>
+</p>
+<p>
+  <b>Description:</b>
+  <%= @course.description %>
+</p>
+<div>
+  <p>
+    <b>Overall</b>
+    <%= @course.overall %>
+  </p>
+  <p>
+    <b>Difficulty</b>
+    <%= @course.difficulty %>
+  </p>
+  <p>
+    <b>Content</b>
+    <%= @course.content %>
+  </p>
+  <p>
+    <b>Usefulness</b>
+    <%= @course.usefulness %>
+  </p>
+  <p>
+    <b>Time Spent</b>
+    <%= @course.time_spent %>
+  </p>
+  <p>
+    <b>Recommend</b>
+    <%= @course.recommend %>
+  </p>
+</div>
+<p>
+  <b>Professors:</b><br />
+  <% @course.sections.each do |section| %>
+    <%= link_to section.professor.name, section_path(section) %>
+    <%= section.course_overall %>
+    <br />
+  <% end %>
+</p>
+<% for smart_review in @course.smart_reviews %>
+<%= render :partial => 'sections/course_review', :collection => smart_review.course_reviews %>
+<% end %>

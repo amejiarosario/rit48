@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/rit48/!svn/ver/23/trunk/test/unit/helpers
+END
+users_helper_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/rit48/!svn/ver/4/trunk/test/unit/helpers/users_helper_test.rb
+END
+courses_helper_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/rit48/!svn/ver/4/trunk/test/unit/helpers/courses_helper_test.rb
+END
+course_reviews_helper_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/rit48/!svn/ver/4/trunk/test/unit/helpers/course_reviews_helper_test.rb
+END
+smart_reviews_helper_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/rit48/!svn/ver/4/trunk/test/unit/helpers/smart_reviews_helper_test.rb
+END
+professors_helper_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/rit48/!svn/ver/4/trunk/test/unit/helpers/professors_helper_test.rb
+END
+user_sessions_helper_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/rit48/!svn/ver/20/trunk/test/unit/helpers/user_sessions_helper_test.rb
+END
+departments_helper_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/rit48/!svn/ver/4/trunk/test/unit/helpers/departments_helper_test.rb
+END
+home_helper_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/rit48/!svn/ver/23/trunk/test/unit/helpers/home_helper_test.rb
+END
+sections_helper_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/rit48/!svn/ver/4/trunk/test/unit/helpers/sections_helper_test.rb
+END
+professor_reviews_helper_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/rit48/!svn/ver/4/trunk/test/unit/helpers/professor_reviews_helper_test.rb
+END

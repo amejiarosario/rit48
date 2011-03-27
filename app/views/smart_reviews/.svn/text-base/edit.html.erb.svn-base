@@ -1,0 +1,6 @@
+<h1>Editing smart_review</h1>
+
+<%= render 'form' %>
+
+<%= link_to 'Show', @smart_review %> |
+<%= link_to 'Back', smart_reviews_path %>

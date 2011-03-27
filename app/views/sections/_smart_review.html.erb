@@ -1,0 +1,7 @@
+<!-- TODO indidual reviws for professor and section -->
+
+<div style="border: 1px solid gray">
+  <%= render :partial => 'professor_review', :object => smart_review.professor_reviews.first %>
+  <%= render :partial => 'course_review', :object=> smart_review.course_reviews.first %>
+  <div><%= smart_review.created_at %></div>
+</div>

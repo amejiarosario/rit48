@@ -1,0 +1,41 @@
+<%= form_for(@professor_review) do |f| %>
+  <% if @professor_review.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@professor_review.errors.count, "error") %> prohibited this professor_review from being saved:</h2>
+
+      <ul>
+      <% @professor_review.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :comment %><br />
+    <%= f.text_area :comment, :rows => 3 %>
+  </div>
+  <div class="field">
+    <%= f.label :difficulty %><br />
+    <%= f.text_field :difficulty %>
+  </div>
+  <div class="field">
+    <%= f.label :mood %><br />
+    <%= f.text_field :mood %>
+  </div>
+  <div class="field">
+    <%= f.label :teaching_method %><br />
+    <%= f.text_field :teaching_method %>
+  </div>
+  <div class="field">
+    <%= f.label :exams_difficulty %><br />
+    <%= f.text_field :exams_difficulty %>
+  </div>
+  <div class="field">
+    <%= f.label :helpfulness %><br />
+    <%= f.text_field :helpfulness %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

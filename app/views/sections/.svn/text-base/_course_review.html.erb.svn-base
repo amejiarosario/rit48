@@ -1,0 +1,38 @@
+<div>
+  <b style="display:inline-table">
+    Comment:
+  </b>
+  <span style="display: inline-table">
+    <%= course_review.comment %>
+  </span>
+  <b style="display:inline-table">
+    Difficulty:
+  </b>
+  <span style="display: inline-table">
+    <%= course_review.difficulty %>
+  </span>
+  <b style="display:inline-table">
+    Usefulness:
+  </b>
+  <span style="display: inline-table">
+    <%= course_review.usefulness %>
+  </span>
+  <b style="display:inline-table">
+    Content:
+  </b>
+  <span style="display: inline-table">
+    <%= course_review.content %>
+  </span>
+  <b style="display:inline-table">
+    Recommend:
+  </b>
+  <span style="display: inline-table">
+    <%= course_review.recommend %>
+  </span>
+  <b style="display:inline-table">
+    Time spent:
+  </b>
+  <span style="display: inline-table">
+    <%= course_review.time_spent %>
+  </span>
+</div>

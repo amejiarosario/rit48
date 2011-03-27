@@ -1,0 +1,47 @@
+<h2>Course</h2>
+<% f.fields_for :course_reviews do |fc| %>
+<div class="field">
+  <%= fc.label :difficulty %><br />
+  <%= fc.radio_button :difficulty, 1 %>&nbsp;1 (easy) &nbsp;
+  <%= fc.radio_button :difficulty, 2 %>&nbsp;2 &nbsp;
+  <%= fc.radio_button :difficulty, 3 %>&nbsp;3 &nbsp;
+  <%= fc.radio_button :difficulty, 4 %>&nbsp;4 &nbsp;
+  <%= fc.radio_button :difficulty, 5 %>&nbsp;5 (dificulty)  
+</div>
+<div class="field">
+  <%= fc.label :usefulness %><br />
+    <%= fc.radio_button :usefulness, 1 %>&nbsp;1 (not related to me) &nbsp;
+  <%= fc.radio_button :usefulness, 2 %>&nbsp;2 &nbsp;
+  <%= fc.radio_button :usefulness, 3 %>&nbsp;3 &nbsp;
+  <%= fc.radio_button :usefulness, 4 %>&nbsp;4 &nbsp;
+  <%= fc.radio_button :usefulness, 5 %>&nbsp;5 (great asset for me)
+</div>
+<div class="field">
+  <%= fc.label :content %><br />
+  <%= fc.radio_button :content, 1 %>&nbsp;1 (not too much) &nbsp;
+  <%= fc.radio_button :content, 2 %>&nbsp;2 &nbsp;
+  <%= fc.radio_button :content, 3 %>&nbsp;3 &nbsp;
+  <%= fc.radio_button :content, 4 %>&nbsp;4 &nbsp;
+  <%= fc.radio_button :content, 5 %>&nbsp;5 (a lot of material to cover)
+</div>
+<div class="field">
+  <%= fc.label :time_spent %><br />
+    <%= fc.radio_button :time_spent, 1 %>&nbsp;1 (not too much) &nbsp;
+  <%= fc.radio_button :time_spent, 2 %>&nbsp;2 &nbsp;
+  <%= fc.radio_button :time_spent, 3 %>&nbsp;3 &nbsp;
+  <%= fc.radio_button :time_spent, 4 %>&nbsp;4 &nbsp;
+  <%= fc.radio_button :time_spent, 5 %>&nbsp;5 (tons of homeworks)
+</div>
+<div class="field">
+  <%= fc.label :recommend %><br />
+  <%= fc.radio_button :recommend, 1 %>&nbsp;1 (don't take it) &nbsp;
+  <%= fc.radio_button :recommend, 2 %>&nbsp;2 &nbsp;
+  <%= fc.radio_button :recommend, 3 %>&nbsp;3 &nbsp;
+  <%= fc.radio_button :recommend, 4 %>&nbsp;4 &nbsp;
+  <%= fc.radio_button :recommend, 5 %>&nbsp;5 (everybody should take it)  
+</div>
+<div class="field">
+  <%= fc.label :comment %><br />
+  <%= fc.text_area :comment, :rows => 3 %>
+</div>
+<% end %>

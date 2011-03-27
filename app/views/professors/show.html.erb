@@ -1,0 +1,75 @@
+<p id="notice"><%= notice %></p>
+<p>
+  <b>Name:</b>
+  <%= @professor.name %>
+</p>
+<p>
+  <b>Description:</b>
+  <%= @professor.description %>
+</p>
+<p>
+  <b>Degrees:</b>
+  <%= @professor.degrees %>
+</p>
+<div>
+  <p>
+    <b>Overall:</b>
+    <%= @professor.overall %>
+  </p>
+  <p>
+    <b>Difficulty:</b>
+    <%= @professor.difficulty %>
+  </p>
+  <p>
+    <b>Mood:</b>
+    <%= @professor.mood %>
+  </p>
+  <p>
+    <b>Teaching Skills:</b>
+    <%= @professor.teaching_skills %>
+  </p>
+  <p>
+    <b>Helpfulness:</b>
+    <%= @professor.helpfulness %>
+  </p>
+  <p>
+    <b>Exams Difficulty:</b>
+    <%= @professor.exams_difficulty %>
+  </p>
+</div>
+<div>
+  <b>Courses:</b> List of courses taught by this professor.
+<table>
+  <thead>
+    <tr>
+      <th>
+        Course Id
+      </th>
+      <th>
+        Course name
+      </th>
+      <th>
+        Overall Professor Rating
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+<% for section in @professor.sections %>
+    <tr>
+      <td>
+        <%= "#{section.course.department.key}-#{section.course.key}" %>
+      </td>
+      <td>
+        <%= link_to section.course.name, section_path(@professor) %>
+      </td>
+      <td>
+        <%= section.professor_overall %>
+      </td>
+    <tr/>
+<% end %>
+  <tbody>
+</table>
+</div>
+<% for smart_review in @professor.smart_reviews %>
+<%= render :partial => 'sections/professor_review', :collection => smart_review.professor_reviews %>
+<% end %>

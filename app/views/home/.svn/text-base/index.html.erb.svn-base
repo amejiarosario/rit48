@@ -1,0 +1,52 @@
+<div>
+
+	<!-- TODO Make a review page -->
+
+	<div style="margin:15px;padding:10px;">
+	
+	<h1>Make a review!</h1>
+	<br/>
+	<ol>
+		<li>Think in a course that you have taken or are taking this quarter.</li>
+		<li>Write down the name of the profesor or course.</li>
+		<li>Choose your profesor-course combination.</li>
+	</ol>
+	
+	<div style="margin:15px; padding:10px;">
+
+	<h2>What course are you looking for?</h2>
+	<div style="border: 2px solid green">
+		<%= form_tag search_courses_path, :method => :post, :id => 'search_courses_form', :remote => true do -%>
+		<div>
+			<%= label_tag :criterion, 'Course:' %>
+			<%= text_field_tag :criterion %>
+			<%= submit_tag 'Search' %>
+		</div>
+		<div>
+			<sub>
+				Write the name of the course or its ID.
+			</sub>
+		</div>
+		<% end -%>
+	</div>
+		<br />
+		<br />
+	<h2>Who are you looking for?</h2>
+	<div style="border: 2px solid blue">
+		<%= form_tag search_professors_path, :method => :post, :id => 'search_professors_form', :remote => true do -%>
+		<div>
+			<%= label_tag :criterion, 'Professor:' %>
+			<%= text_field_tag :criterion %>
+			<%= submit_tag 'Search' %>
+		</div>
+		<div>
+			<sub>
+				Write the name of the professor.
+			</sub>
+		</div>
+		<% end -%>
+	</div>
+	<div id="results">
+	</div>
+	<div>
+

@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/rit48/!svn/ver/79/trunk/app/views/courses
+END
+new.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/rit48/!svn/ver/4/trunk/app/views/courses/new.html.erb
+END
+show.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/rit48/!svn/ver/76/trunk/app/views/courses/show.html.erb
+END
+_show.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/rit48/!svn/ver/62/trunk/app/views/courses/_show.html.erb
+END
+edit.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/rit48/!svn/ver/4/trunk/app/views/courses/edit.html.erb
+END
+search.js.erb
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/rit48/!svn/ver/70/trunk/app/views/courses/search.js.erb
+END
+_courses.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/rit48/!svn/ver/79/trunk/app/views/courses/_courses.html.erb
+END
+_form.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/rit48/!svn/ver/4/trunk/app/views/courses/_form.html.erb
+END
+index.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/rit48/!svn/ver/37/trunk/app/views/courses/index.html.erb
+END

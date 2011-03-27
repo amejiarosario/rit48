@@ -1,0 +1,21 @@
+<h1>Listing professors</h1>
+
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Description</th>
+    <th>Degrees</th>
+    <th>Rating</th>
+    <th></th>
+  </tr>
+
+<% @professors.each do |professor| %>
+  <tr>
+    <td><%= professor.name %></td>
+    <td><%= professor.description %></td>
+    <td><%= professor.degrees %></td>
+    <td><%= professor.overall %></td>
+    <td><%= link_to 'Show', professor %></td>
+  </tr>
+<% end %>
+</table>

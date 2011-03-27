@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/rit48/!svn/ver/23/trunk/app/helpers
+END
+home_helper.rb
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/rit48/!svn/ver/23/trunk/app/helpers/home_helper.rb
+END
+application_helper.rb
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/rit48/!svn/ver/2/trunk/app/helpers/application_helper.rb
+END
+user_sessions_helper.rb
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/rit48/!svn/ver/9/trunk/app/helpers/user_sessions_helper.rb
+END
+departments_helper.rb
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/rit48/!svn/ver/4/trunk/app/helpers/departments_helper.rb
+END
+professors_helper.rb
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/rit48/!svn/ver/4/trunk/app/helpers/professors_helper.rb
+END
+smart_reviews_helper.rb
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/rit48/!svn/ver/4/trunk/app/helpers/smart_reviews_helper.rb
+END
+course_reviews_helper.rb
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/rit48/!svn/ver/4/trunk/app/helpers/course_reviews_helper.rb
+END
+users_helper.rb
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/rit48/!svn/ver/4/trunk/app/helpers/users_helper.rb
+END
+courses_helper.rb
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/rit48/!svn/ver/4/trunk/app/helpers/courses_helper.rb
+END
+professor_reviews_helper.rb
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/rit48/!svn/ver/4/trunk/app/helpers/professor_reviews_helper.rb
+END
+sections_helper.rb
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/rit48/!svn/ver/4/trunk/app/helpers/sections_helper.rb
+END

@@ -1,0 +1,182 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Smart Student - Courses</title>
+<link href="stylesheets/main.css" rel="stylesheet" type="text/css" />
+<link href="stylesheets/loginstyle.css" rel="stylesheet" type="text/css" />
+
+
+</head>
+
+<body id="courses">
+
+<div id="mainWrapper">
+
+	<div id="header">
+    <a href="home.html">
+   	<img src="images/header4.png" id="headerIMG"/></a>
+    <img src="images/beta_tag.png" id="beta"/>
+    <a href="logoutpage.html"><div id="logoutbox">Logout</div></a>
+    
+  </div><!--END HEADER-->
+  
+  
+    
+  <div id="nav">
+  <ul>
+ 	 <li><a href="review.html"> SUBMIT REVIEW</a></li>
+  	<li><a href="courses.html">COURSES </a></li>
+  	<li><a href="professors.html">PROFESSORS </a></li>
+ 	<li> <a href="Q&A.html">Q&amp;A </a></li>
+    
+  </ul>
+  
+  <div id="searchbox">
+<input id="searchbar" name="Search" type="text" value="search" size="15" />
+       
+       
+       <input name="Search" type="submit" value="search" />
+   
+   <!---    
+<input id="searchbtn" name="Search" type="submit" value="" />
+        
+        <INPUT TYPE=IMAGE
+SRC="images/search_btn.png" NAME="Search">--->
+
+   	  </div>
+      
+      
+  </div>
+   
+   <div id="adWrapper">
+    ads go here
+    </div><!--END AD WRAPPER-->
+    
+    
+  <div id="wrapper">
+    
+    <div id="dropdown">
+    
+    
+      <form name="form" id="collegeform">
+        <select name="chooseCollege" id="chooseCollege" value="choose college">
+    	  <option selected="selected">CHOOSE COLLEGE</option>
+          <option>CIAS</option>
+          <option>GCCIS</option>
+          <option>COB</option>
+          <option>CAST</option>
+          <option>KGCOE</option>
+          <option>COS</option>
+          <option>GIOS</option>
+          <option>NTID</option>
+          <option>CMS</option>
+          <option>GIOS</option>
+          
+          
+        </select>
+      </form>
+    </div><br/><br/>
+        
+        <table width="796" border="0" cellspacing="10px">
+  <tr>
+    <th width="40" scope="col">Key</th>
+    <th width="182" scope="col">Course Name</th>
+    <th width="422" scope="col">Description</th>
+    <th width="94" scope="col">Rating</th>
+  </tr>
+  <tr>
+    <td>362</td>
+    <td>ENG OF SOFTWARE SUBSYS</td>
+    <td>An introduction to the principles of the foundations of contemporary</td>
+    
+    <td>
+ 	<img src="images/little_star.png" />
+    <img src="images/little_star.png" />
+    <img src="images/little_star.png" />
+    <img src="images/little_star.png" />
+    <img src="images/little_star.png" />
+   
+    </td>
+  </tr>
+ 
+  <tr>
+    <td>265</td>
+    <td>CLASS NAME</td>
+    <td>desctription askdfjkajfkas</td>
+    <td>
+    <img src="images/little_star.png" />
+    <img src="images/little_star.png" />
+    <img src="images/little_star.png" />
+    <img src="images/little_star.png" />
+    <img src="images/little_star.png" />
+    </td>
+  </tr>
+  <tr>
+    <td>846</td>
+    <td>ART CLASS</td>
+    <td>what is it about</td>
+    <td>
+    <input name="star" type="radio" value="" />
+    <input name="star" type="radio" value="" />
+    <input name="star" type="radio" value="" />
+    <input name="star" type="radio" value="" />
+    <input name="star" type="radio" value="" />
+    </td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+</table>
+        
+        
+        
+  </div><!--END WRAPPER-->
+    
+    <!---
+   <div id="footer">
+   Feedback Contact Disclaimer About</div>
+   END FOOTER-->
+    
+    
+
+
+
+
+    
+</div><!--END MAIN WRAPPER-->
+</body>
+</html>

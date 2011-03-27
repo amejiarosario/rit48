@@ -1,0 +1,14 @@
+<div>
+  Write the name of the professor
+  <p><%= link_to "Find Courses", find_courses_path %></p>
+  <div>
+  <%= form_tag search_professors_path, :method => :post, :remote => true do -%>
+  <div>
+    <%= text_field_tag :criterion %>
+    <%= submit_tag 'Much' %>
+  </div>
+  <% end -%>
+  </div>
+  <div id="results">
+  </div>
+<div>

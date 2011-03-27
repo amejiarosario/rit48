@@ -1,0 +1,6 @@
+<h1>Courses in <%= @department.name %></h1>
+<ol>
+<% @department.courses.each do |course| %>
+  <li><%= link_to "#{course.key} #{course.name}", course_path(course) %></li>
+<% end %>
+</ol>

@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/rit48/!svn/ver/70/trunk/app/controllers
+END
+sections_controller.rb
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/rit48/!svn/ver/38/trunk/app/controllers/sections_controller.rb
+END
+home_controller.rb
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/rit48/!svn/ver/36/trunk/app/controllers/home_controller.rb
+END
+application_controller.rb
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/rit48/!svn/ver/35/trunk/app/controllers/application_controller.rb
+END
+user_sessions_controller.rb
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/rit48/!svn/ver/64/trunk/app/controllers/user_sessions_controller.rb
+END
+departments_controller.rb
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/rit48/!svn/ver/30/trunk/app/controllers/departments_controller.rb
+END
+professors_controller.rb
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/rit48/!svn/ver/70/trunk/app/controllers/professors_controller.rb
+END
+smart_reviews_controller.rb
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/rit48/!svn/ver/31/trunk/app/controllers/smart_reviews_controller.rb
+END
+course_reviews_controller.rb
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/rit48/!svn/ver/30/trunk/app/controllers/course_reviews_controller.rb
+END
+users_controller.rb
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/rit48/!svn/ver/65/trunk/app/controllers/users_controller.rb
+END
+courses_controller.rb
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/rit48/!svn/ver/70/trunk/app/controllers/courses_controller.rb
+END
+professor_reviews_controller.rb
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/rit48/!svn/ver/30/trunk/app/controllers/professor_reviews_controller.rb
+END

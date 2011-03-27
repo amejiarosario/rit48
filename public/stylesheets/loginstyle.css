@@ -1,0 +1,77 @@
+@charset "UTF-8";
+/* CSS Document */
+
+*{
+	padding:0;
+	margin:0;
+}
+
+body{
+	font-family:Georgia, serif;
+	font-style:italic;
+}
+
+
+#mainWrapperHome{
+	width:470px;
+	height:700px;
+	margin:auto;
+	margin-top:40px;
+	
+}
+
+
+#loginHome{
+	width:470px;
+	height:300px;
+	background-color:#fff;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+	-moz-box-shadow: 0px 0px 10px #fff;
+	-webkit-box-shadow: 0px 0px 10px #fff;
+	box-shadow: 0px 0px 8px #fff;
+}
+
+#registerHome{
+	width:470px;
+	height:300px;
+	margin-top:20px;
+	background-color:#fff;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+	-moz-box-shadow: 0px 0px 10px #fff;
+	-webkit-box-shadow: 0px 0px 10px #fff;
+	box-shadow: 0px 0px 8px #fff;
+}
+
+#boxHome{
+	margin-left:90px;
+}
+
+.inputStyle{
+	height:20px;
+	-moz-border-radius: 7px;
+	border-radius: 7px;
+}
+
+
+.loginbtn{
+	background-image:url(../images/login_btn.png);
+	background-repeat:no-repeat;
+	width:71px;
+	height:40px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+}
+
+.signupbtn{
+	background-image:url(../images/sign_up_btn.png);
+	background-repeat:no-repeat;
+	width:95px;
+	height:40px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+}
+
+
+	

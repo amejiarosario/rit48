@@ -1,0 +1,45 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Course:</b>
+  <%= @section.course.name %>
+</p>
+
+<p>
+  <b>Professor:</b>
+  <%= @section.professor.name %>
+</p>
+
+<div>
+  <h2>Reviews:</h2>
+  <%= render :partial => 'smart_review', :collection => @section.smart_reviews %>
+</div>
+
+<% if @allowed_to_review %>
+<div>
+
+<!-- start -->
+<%
+@smart_review = @section.smart_reviews.build
+@smart_review.professor_reviews.build
+@smart_review.course_reviews.build
+%>
+<h2>Add a comment:</h2>
+<%= form_for([@section, @smart_review]) do |f| %>
+  <div>
+    <%= render :partial => 'professor_form', :locals => { :f => f, :professor_review => @smart_review } %>
+  </div>
+  <div>
+    <%= render :partial => 'course_form', :locals => { :f => f, :course_review => @smart_review } %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>
+</div>
+<% end %>
+<!-- end -->
+
+
+<%= link_to 'Edit', edit_section_path(@section) %> |
+<%= link_to 'Back', sections_path %>

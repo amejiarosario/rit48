@@ -1,0 +1,84 @@
+<%= form_for(@smart_review) do |f| %>
+  <% if @smart_review.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@smart_review.errors.count, "error") %> prohibited this smart_review from being saved:</h2>
+
+      <ul>
+      <% @smart_review.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :user_id %><br />
+    <%#= f.text_field :user_id %>
+    <%= current_user.id %>
+  </div>
+  <div class="field">
+    <%= f.label :section_id %><br />
+    <%= f.text_field :section_id %>
+  </div>
+  <div>
+    <h2>Professor</h2>
+      <% f.fields_for :professor_reviews do |fp| %>
+      <div class="field">
+        <%= fp.label :comment %><br />
+        <%= fp.text_area :comment, :rows => 3 %>
+      </div>
+      <div class="field">
+        <%= fp.label :difficulty %><br />
+        <%= fp.text_field :difficulty %>
+      </div>
+      <div class="field">
+        <%= fp.label :mood %><br />
+        <%= fp.text_field :mood %>
+      </div>
+      <div class="field">
+        <%= fp.label :teaching_method %><br />
+        <%= fp.text_field :teaching_skills %>
+      </div>
+      <div class="field">
+        <%= fp.label :exams_difficulty %><br />
+        <%= fp.text_field :exams_difficulty %>
+      </div>
+      <div class="field">
+        <%= fp.label :helpfulness %><br />
+        <%= fp.text_field :helpfulness %>
+      </div>
+    <% end %>
+  </div>
+  <div>
+    <h2>Course</h2>
+    <% f.fields_for :course_reviews do |fc| %>
+    <div class="field">
+      <%= fc.label :comment %><br />
+      <%= fc.text_area :comment, :rows => 3 %>
+    </div>
+    <div class="field">
+      <%= fc.label :difficulty %><br />
+      <%= fc.text_field :difficulty %>
+    </div>
+    <div class="field">
+      <%= fc.label :usefulness %><br />
+      <%= fc.text_field :usefulness %>
+    </div>
+    <div class="field">
+      <%= fc.label :content %><br />
+      <%= fc.text_field :content %>
+    </div>
+    <div class="field">
+      <%= fc.label :time_spent %><br />
+      <%= fc.text_field :time_spent %>
+    </div>
+    <div class="field">
+      <%= fc.label :recommend %><br />
+      <%= fc.text_field :recommend %>
+    </div>
+    <% end %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

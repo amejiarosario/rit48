@@ -1,0 +1,77 @@
+10
+
+dir
+80
+http://subversion.assembla.com/svn/rit48/trunk/test
+http://subversion.assembla.com/svn/rit48
+
+
+
+2011-03-26T01:35:04.552820Z
+23
+adriansky
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+8a48850a-7d8a-4c0b-8813-a7ec3fade4cd
+
+fixtures
+dir
+
+functional
+dir
+
+integration
+dir
+
+performance
+dir
+
+test_helper.rb
+file
+
+
+
+
+2011-03-27T04:58:34.000000Z
+2b8130eb4e1a65bce16e6e0fbe90d447
+2011-03-25T17:58:03.032175Z
+2
+byktol
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+454
+
+unit
+dir
+

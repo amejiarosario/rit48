@@ -1,0 +1,17 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  comment: MyString
+  difficulty: 1
+  usefulness: 1
+  content: 1
+  time_spent: 1
+  recommend: 1
+
+two:
+  comment: MyString
+  difficulty: 1
+  usefulness: 1
+  content: 1
+  time_spent: 1
+  recommend: 1

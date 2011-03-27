@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/rit48/!svn/ver/32/trunk/app/views/professor_reviews
+END
+new.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/rit48/!svn/ver/4/trunk/app/views/professor_reviews/new.html.erb
+END
+show.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/rit48/!svn/ver/4/trunk/app/views/professor_reviews/show.html.erb
+END
+edit.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/rit48/!svn/ver/4/trunk/app/views/professor_reviews/edit.html.erb
+END
+_form.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/rit48/!svn/ver/32/trunk/app/views/professor_reviews/_form.html.erb
+END
+index.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/rit48/!svn/ver/4/trunk/app/views/professor_reviews/index.html.erb
+END

@@ -1,0 +1,13 @@
+<table>
+  <tr>
+    <th>Key</th>
+    <th>Name</th>
+  </tr>
+
+<% @departments.each do |department| %>
+  <tr>
+    <td><%= department.key %></td>
+    <td><%= link_to department.name, department_path(department) %></td>
+  </tr>
+<% end %>
+</table>

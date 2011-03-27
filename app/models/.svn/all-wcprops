@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/rit48/!svn/ver/77/trunk/app/models
+END
+smart_review.rb
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/rit48/!svn/ver/38/trunk/app/models/smart_review.rb
+END
+course_review.rb
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/rit48/!svn/ver/26/trunk/app/models/course_review.rb
+END
+user.rb
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/rit48/!svn/ver/38/trunk/app/models/user.rb
+END
+course.rb
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/rit48/!svn/ver/76/trunk/app/models/course.rb
+END
+review.rb
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/rit48/!svn/ver/4/trunk/app/models/review.rb
+END
+professor_review.rb
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/rit48/!svn/ver/67/trunk/app/models/professor_review.rb
+END
+section.rb
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/rit48/!svn/ver/77/trunk/app/models/section.rb
+END
+user_session.rb
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/rit48/!svn/ver/14/trunk/app/models/user_session.rb
+END
+department.rb
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/rit48/!svn/ver/38/trunk/app/models/department.rb
+END
+professor.rb
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/rit48/!svn/ver/76/trunk/app/models/professor.rb
+END

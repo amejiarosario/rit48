@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/rit48/!svn/ver/32/trunk/db/migrate
+END
+20110325183151_create_smart_reviews.rb
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/rit48/!svn/ver/4/trunk/db/migrate/20110325183151_create_smart_reviews.rb
+END
+20110325181448_create_departments.rb
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/rit48/!svn/ver/4/trunk/db/migrate/20110325181448_create_departments.rb
+END
+20110325181121_create_users.rb
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/rit48/!svn/ver/4/trunk/db/migrate/20110325181121_create_users.rb
+END
+20110325182614_create_reviews.rb
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/rit48/!svn/ver/32/trunk/db/migrate/20110325182614_create_reviews.rb
+END
+20110325181341_create_professors.rb
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/rit48/!svn/ver/4/trunk/db/migrate/20110325181341_create_professors.rb
+END
+20110325181731_create_sections.rb
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/rit48/!svn/ver/4/trunk/db/migrate/20110325181731_create_sections.rb
+END
+20110325181615_create_courses.rb
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/rit48/!svn/ver/6/trunk/db/migrate/20110325181615_create_courses.rb
+END

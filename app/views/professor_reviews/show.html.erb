@@ -1,0 +1,35 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Comment:</b>
+  <%= @professor_review.comment %>
+</p>
+
+<p>
+  <b>Difficulty:</b>
+  <%= @professor_review.difficulty %>
+</p>
+
+<p>
+  <b>Mood:</b>
+  <%= @professor_review.mood %>
+</p>
+
+<p>
+  <b>Teaching method:</b>
+  <%= @professor_review.teaching_method %>
+</p>
+
+<p>
+  <b>Exams difficulty:</b>
+  <%= @professor_review.exams_difficulty %>
+</p>
+
+<p>
+  <b>Helpfulness:</b>
+  <%= @professor_review.helpfulness %>
+</p>
+
+
+<%= link_to 'Edit', edit_professor_review_path(@professor_review) %> |
+<%= link_to 'Back', professor_reviews_path %>

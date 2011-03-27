@@ -1,0 +1,24 @@
+<table>
+  <tfoot>
+    <tr>
+      <td colspan="3"><%= "Found #{@courses.count} courses." %></td>
+    </tr>
+  </tfoot>
+  <tbody>
+<% for course in @courses do -%>
+    <tr>
+      <td>
+        <%= "#{course.department.key}-#{course.key}" %>
+      </td>
+      <td>
+        <%= link_to course.name, course_path(course) %>
+      </td>
+      <td>
+        <% for section in course.sections -%>
+        <p><%= link_to section.professor.name, section_path(section) %></p>
+        <% end -%>
+      </td>
+    </tr>
+<% end -%>
+  </tbody>
+<table>

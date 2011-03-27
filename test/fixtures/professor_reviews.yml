@@ -1,0 +1,17 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  comment: MyString
+  difficulty: 1
+  mood: 1
+  teaching_method: 1
+  exams_difficulty: 1
+  helpfulness: 1
+
+two:
+  comment: MyString
+  difficulty: 1
+  mood: 1
+  teaching_method: 1
+  exams_difficulty: 1
+  helpfulness: 1

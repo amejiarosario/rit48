@@ -1,0 +1,61 @@
+10
+
+dir
+80
+http://subversion.assembla.com/svn/rit48/trunk/app/views
+http://subversion.assembla.com/svn/rit48
+
+
+
+2011-03-27T04:14:51.189026Z
+79
+byktol
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+8a48850a-7d8a-4c0b-8813-a7ec3fade4cd
+
+course_reviews
+dir
+
+courses
+dir
+
+departments
+dir
+
+home
+dir
+
+layouts
+dir
+
+professor_reviews
+dir
+
+professors
+dir
+
+sections
+dir
+
+smart_reviews
+dir
+
+user_sessions
+dir
+
+users
+dir
+

@@ -1,0 +1,12 @@
+<div>
+  <%= show.department.key %>-<%= show.key %>
+  <%= show.name %>
+</div>
+
+
+<% show.sections.each do |section| %>
+  <p>
+  <%= link_to section.professor.name, section_path(section) %>
+  <%= section.course_overall %>
+  </p>
+<% end %>

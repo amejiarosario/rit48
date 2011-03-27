@@ -1,0 +1,53 @@
+<!-- TODO Professor make a review -->
+
+<h2>Professor</h2>
+<% f.fields_for :professor_reviews do |fp| %>
+<div class="field">
+  <%= fp.label :difficulty %>:
+  <%= fp.radio_button :difficulty, 1 %>&nbsp;1 (easy) &nbsp;
+  <%= fp.radio_button :difficulty, 2 %>&nbsp;2 &nbsp;
+  <%= fp.radio_button :difficulty, 3 %>&nbsp;3 &nbsp;
+  <%= fp.radio_button :difficulty, 4 %>&nbsp;4 &nbsp;
+  <%= fp.radio_button :difficulty, 5 %>&nbsp;5 (dificulty)
+  
+</div>
+<div class="field">
+  <%= fp.label :mood %>:
+  <%= fp.radio_button :mood, 1 %>&nbsp;1 (bad mood) &nbsp;
+  <%= fp.radio_button :mood, 2 %>&nbsp;2 &nbsp;
+  <%= fp.radio_button :mood, 3 %>&nbsp;3 &nbsp;
+  <%= fp.radio_button :mood, 4 %>&nbsp;4 &nbsp;
+  <%= fp.radio_button :mood, 5 %>&nbsp;5 (good mood)
+  
+</div>
+<div class="field">
+  <%= fp.label :teaching_skill %>:
+  <%= fp.radio_button :teaching_skill, 1 %>&nbsp;1 (poor skills) &nbsp;
+  <%= fp.radio_button :teaching_skill, 2 %>&nbsp;2 &nbsp;
+  <%= fp.radio_button :teaching_skill, 3 %>&nbsp;3 &nbsp;
+  <%= fp.radio_button :teaching_skill, 4 %>&nbsp;4 &nbsp;
+  <%= fp.radio_button :teaching_skill, 5 %>&nbsp;5 (brilliant teacher)
+  
+</div>
+<div class="field">
+  <%= fp.label :exams_difficulty %>:
+  <%= fp.radio_button :exams_difficulty, 1 %>&nbsp;1 (no one can pass it) &nbsp;
+  <%= fp.radio_button :exams_difficulty, 2 %>&nbsp;2 &nbsp;
+  <%= fp.radio_button :exams_difficulty, 3 %>&nbsp;3 &nbsp;
+  <%= fp.radio_button :exams_difficulty, 4 %>&nbsp;4 &nbsp;
+  <%= fp.radio_button :exams_difficulty, 5 %>&nbsp;5 (it's a piece of cake)
+  
+</div>
+<div class="field">
+  <%= fp.label :helpfulness %>:
+   <%= fp.radio_button :helpfulness, 1 %>&nbsp;1 (no very helpfull) &nbsp;
+  <%= fp.radio_button :helpfulness, 2 %>&nbsp;2 &nbsp;
+  <%= fp.radio_button :helpfulness, 3 %>&nbsp;3 &nbsp;
+  <%= fp.radio_button :helpfulness, 4 %>&nbsp;4 &nbsp;
+  <%= fp.radio_button :helpfulness, 5 %>&nbsp;5 (caring and helpfull)
+</div>
+<div class="field">
+  <%= fp.label :comment %><br />
+  <%= fp.text_area :comment, :rows => 3 %>
+</div>
+<% end %>
