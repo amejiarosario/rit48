@@ -1,14 +1,14 @@
 10
 
 dir
-82
+83
 http://subversion.assembla.com/svn/rit48/trunk/public/stylesheets
 http://subversion.assembla.com/svn/rit48
 
 
 
-2011-03-27T05:51:55.579962Z
-81
+2011-03-27T06:33:32.481825Z
+83
 cmccormick
 
 
@@ -100,10 +100,10 @@ file
 
 
 
-2011-03-27T05:59:25.000000Z
-5535b17e17916a322f5df933d8f38dac
-2011-03-27T05:51:55.579962Z
-81
+2011-03-27T06:35:02.000000Z
+9dcbd0fd72f7744a24d950723dc941fd
+2011-03-27T06:33:32.481825Z
+83
 cmccormick
 
 
@@ -126,7 +126,7 @@ cmccormick
 
 
 
-2929
+2971
 
 scaffold.css
 file

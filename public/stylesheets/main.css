@@ -14,6 +14,7 @@ body{
 	background-position:center top;
 	font-family:sans-serif;
 	background-color:#00A99D;
+	font-family: Georgia;
 }
 
 #mainWrapper{
@@ -21,6 +22,7 @@ body{
 	height:768px;
 	margin:auto;
 	margin-top:40px;
+	margin-bottom:40px;
 	background-color:#fff;
 	-moz-border-radius: 15px;
 	border-radius: 15px;
@@ -45,7 +47,6 @@ body{
 	width:400px;
 	height:30px;
 }
-	
 	
 
 
