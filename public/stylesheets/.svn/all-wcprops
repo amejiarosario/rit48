@@ -1,7 +1,7 @@
 K 25
 svn:wc:ra_dav:version-url
 V 47
-/svn/rit48/!svn/ver/80/trunk/public/stylesheets
+/svn/rit48/!svn/ver/81/trunk/public/stylesheets
 END
 .gitkeep
 K 25
@@ -25,5 +25,5 @@ main.css
 K 25
 svn:wc:ra_dav:version-url
 V 56
-/svn/rit48/!svn/ver/80/trunk/public/stylesheets/main.css
+/svn/rit48/!svn/ver/81/trunk/public/stylesheets/main.css
 END

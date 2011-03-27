@@ -55,6 +55,7 @@ body{
 	float:left;
 	margin-top:10px;
 	background-color:#fff;
+	padding:20px;
 
 }
 
@@ -62,7 +63,7 @@ body{
 	height:600px;
 	width:200px;
 	float:right;
-	background-color:#CCC;
+	background-color:#F5F5F5;
 }
 
 #footer{
@@ -206,6 +207,7 @@ select {
 
 table{
 	border-collapse:collapse;
+
 }
 
 table td {
@@ -217,4 +219,14 @@ table td {
 table th {
 	padding-bottom:10px;
 	text-align:left;
+}
+
+#reviewTable{
+	margin:auto;
+	background-color:#F5F5F5;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+	width:500px;
+	padding-left:30px;
+	padding-top:30px;
 }

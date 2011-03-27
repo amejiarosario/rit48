@@ -1,0 +1,158 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Insert title here</title>
+<link href="stylesheets/main.css" rel="stylesheet" type="text/css" />
+</head>
+<body id="courses">
+
+<div id="mainWrapper">
+
+	<div id="header">
+    <a href="home.html">
+   	<img src="images/header4.png" id="headerIMG"/></a>
+    <img src="images/beta_tag.png" id="beta"/>
+    <a href="logoutpage.html"><div id="logoutbox">Logout</div></a>
+    
+  </div><!--END HEADER-->
+  
+  
+    
+  <div id="nav">
+  <ul>
+ 	 <li><a href="courses_reviews.html"> SUBMIT REVIEW</a></li>
+  	<li><a href="courses.html">COURSES </a></li>
+  	<li><a href="professors.html">PROFESSORS </a></li>
+ 	<li> <a href="Q&A.html">Q&amp;A </a></li>
+    
+  </ul>
+  
+  <div id="searchbox">
+<input id="searchbar" name="Search" type="text" value="search" size="15" />
+       
+       
+       <input name="Search" type="submit" value="search" />
+   
+   <!---    
+<input id="searchbtn" name="Search" type="submit" value="" />
+        
+        <INPUT TYPE=IMAGE
+SRC="images/search_btn.png" NAME="Search">--->
+
+   	  </div>
+      
+      
+  </div>
+   
+   <div id="adWrapper">
+    ads go here
+    </div><!--END AD WRAPPER-->
+    
+    
+  <div id="wrapper">
+    
+    <div id="dropdown"></div><br/><br/>
+        
+    <div id="reviewTable">
+        <table width="401" border="0" cellspacing="10px">
+        <tr>
+        <th colspan="2"> Art History 2035-564</th>
+        </tr>
+  <tr>
+    <th width="229" scope="col"><p>Mabel Dunwoody</p></th>
+    <th width="138" scope="col">Rating</th>
+  </tr>
+  <tr>
+    <td>difficulty</td>
+    <td>
+      <img src="images/little_star.png" />
+      <img src="images/little_star.png" />
+      <img src="images/little_star.png" />
+      <img src="images/little_star.png" />
+      <img src="images/little_star.png" />
+      
+    </td>
+  </tr>
+ 
+  <tr>
+    <td>mood</td>
+    <td>
+      <img src="images/little_star.png" />
+      <img src="images/little_star.png" />
+      <img src="images/little_star.png" />
+      <img src="images/little_star.png" />
+      <img src="images/little_star.png" />
+    </td>
+  </tr>
+  <tr>
+    <td>teaching skills</td>
+    <td><img src="images/little_star.png" /> <img src="images/little_star.png" /> <img src="images/little_star.png" /> <img src="images/little_star.png" /> <img src="images/little_star.png" /></td>
+  </tr>
+  <tr>
+    <td>exam difficulty</td>
+    <td><img src="images/little_star.png" /> <img src="images/little_star.png" /> <img src="images/little_star.png" /> <img src="images/little_star.png" /> <img src="images/little_star.png" /></td>
+  </tr>
+  <tr>
+    <td colspan="2"><p><strong>Comments:</strong> 
+      </td>
+  </tr>
+  <tr>
+    <td colspan="2"><p> sdfj asdfk jiejfiewi fjlkjf kdjkaweoiri k dsf ksfkjah hio iowe sdj skfhio lkj kldjfaofi kdjf akfj ka </p></td>
+    
+  </tr>
+  <tr>
+    <td colspan="2">kldsfjka j kasdjf ksj ksj klsdj lksjf ksfj kfj kj aifj aif iaf aief iajf asdjf aj iae fiae iawe rioqr jdsj alsfjawfeiou hfgjhdf ksjdfhawerfia jah kjh</p></td>
+
+  </tr>
+  <tr>
+    <td>
+    </td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+</table>
+</div>
+
+ <!--
+
+<form action="#" method="get" accept-charset="utf-8"> 
+        
+        <fieldset class="radios"> 
+        
+            <label class="label_radio" for="radio-01">
+            <input name="sample-radio" id="radio-01" value="1" type="radio" checked /> &nbsp; </label> 
+      	     
+        	<label class="label_radio" for="radio-02">
+   			<input name="sample-radio" id="radio-02" value="1" type="radio" /> &nbsp; </label> 
+         
+			<label class="label_radio" for="radio-03">
+			<input name="sample-radio" id="radio-03" value="1" type="radio" /> &nbsp;</label>
+         	 
+			<label class="label_radio" for="radio-04">
+			<input name="sample-radio" id="radio-04" value="1" type="radio" /> &nbsp;</label> 
+          
+			<label class="label_radio" for="radio-05">
+			<input name="sample-radio" id="radio-05" value="1" type="radio" /> &nbsp;</label> 
+          
+        </fieldset> 
+    </form>
+    
+    --->
+    
+    <INPUT TYPE=IMAGE
+SRC="images/add_review.png" NAME="review">
+
+    
+    
+        
+  </div><!--END WRAPPER-->
+    
+
+    
+</div><!--END MAIN WRAPPER-->
+</body>
+</html>
