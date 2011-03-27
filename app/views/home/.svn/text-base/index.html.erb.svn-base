@@ -2,7 +2,7 @@
 
 	<!-- TODO Make a review page -->
 
-	<div style="margin:15px;padding:10px;">
+	<div>
 	
 	<h1>Write a review!</h1>
 	<br/>
@@ -12,10 +12,10 @@
 		<li>Choose your professor-course combination.</li>
 	</ol>
 	
-	<div style="margin:15px; padding:10px;">
+	<div>
 
 	<h2>What course are you looking for?</h2>
-	<div style="border: 2px solid green">
+	<div>
 		<%= form_tag search_courses_path, :method => :post, :id => 'search_courses_form', :remote => true do -%>
 		<div>
 			<%= label_tag :criterion, 'Course:' %>
@@ -32,7 +32,7 @@
 		<br />
 		<br />
 	<h2>Who are you looking for?</h2>
-	<div style="border: 2px solid blue">
+	<div>
 		<%= form_tag search_professors_path, :method => :post, :id => 'search_professors_form', :remote => true do -%>
 		<div>
 			<%= label_tag :criterion, 'Professor:' %>

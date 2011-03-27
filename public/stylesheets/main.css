@@ -7,15 +7,15 @@
 	padding:0;
 }
 
-a{
+#wrapper a{
 	color:#00A99D;
 }
 
-a:visited{
-	color:#ccc;
+#wrapper a:visited{
+	color:#444444;
 }
-a:hover{
-	color:#AAE8E1;
+#wrapper a:hover{
+	color:#00CEBA;
 }
 
 body{
