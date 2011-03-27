@@ -36,14 +36,16 @@ s5 = Section.create(:course => c1, :professor => p5)
 # Users
 adminUser = User.create(:login => "axm7988", :password => "1234", :password_confirmation => "1234")
 
+
+
 # Smart Review
 sr = SmartReview.create(:user => adminUser, :section => s1)
-
 # Profesor Review
 pr = ProfessorReview.create(:smart_review => sr, :comment => 'Prof', :difficulty => 3, :mood=> 1, :teaching_skill=>4, :exams_difficulty=> 1, :helpfulness=>5)
 
 # Course Review
 cr = CourseReview.create(:smart_review => sr, :comment => 'Cour', :difficulty => 3, :usefulness=>5, :content=>5, :time_spent=>4, :recommend=>5)
+
 
 
 

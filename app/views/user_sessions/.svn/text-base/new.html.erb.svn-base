@@ -20,7 +20,7 @@
 
     <br/>
     <div id="boxHome">
-      <%= f.label :login %><br />
+      <%= f.label :login %><br  />
       <%= f.text_field :login, :size=>30, :class=>"inputStyle" %>@rit.edu
       <br/><br/>
       <%= f.label :password %><br />

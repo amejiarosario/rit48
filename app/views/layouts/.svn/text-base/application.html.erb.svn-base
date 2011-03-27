@@ -12,9 +12,9 @@
 
 			<div id="header">
 				<a href="/home">
-				<img src="images/header4.png" id="headerIMG"/>
+				<img src="/images/header4.png" id="headerIMG"/>
 				</a>
-				<img src="images/beta_tag.png" id="beta"/>
+				<img src="/images/beta_tag.png" id="beta"/>
 				<%= link_to 'Logout', logout_path, :id => 'logoutbox' %>
 			</div><!--END HEADER-->
 			<div id="nav">
